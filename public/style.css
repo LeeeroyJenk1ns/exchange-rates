@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(61, 60, 60);
+    font-family: sans-serif, Helvetica, Arial;
+}
+
+header {
+    background: rgba(9,154,230,0.6306897759103641);
+    padding: 10px;
+    box-shadow: inset 0 0 6px;
+}
+
+nav ul {
+    padding: 5px;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    margin-left: 40px;
+}
+
+nav ul li span{
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: normal;
+    transition: .3s;
+    cursor: pointer;
+}
+
+nav ul li span:hover{
+    color: rgb(61, 60, 60);
+}
+
+.logo {
+    margin-top: 1vh;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 300px;
+}
+
+.title {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 1.7em;
+    font-weight: normal;
+    color: rgb(61, 60, 60);
+}
+
+.get-started {
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding: 14px;
+    margin: 0 30px;
+    font-size: 1.1em;
+    background: #fff;
+    border: none;
+    border-radius: 48px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    color: rgba(9,154,230,1);
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+    transition: .3s;
+    font-weight: bold;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    color: rgb(61, 60, 60);
+}
+
+.valute-block {
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.valute-block-select {
+    margin: 0 30px;
+}
+
+.valute {
+    padding: 6px;
+    font-size: 1.1em;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    color: rgba(9,154,230,1);
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.valute-block-select input{
+    padding: 7px;
+    font-size: 1.1em;
+    background: #fff;
+    box-shadow: inset 0 0 6px rgba(0,0,0,.26);
+    border: none;
+    color: rgba(9,154,230,1);
+    outline: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.info-app {
+    background: #FFF;
+    padding: 10px;
+    box-shadow: inset 0 0 3px;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 1000;
+    transition: 0.3s;
+    margin-top: 10px;
+    width: 300px;
+}
